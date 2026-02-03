@@ -1,3 +1,4 @@
+// Tier-6 Human Review
 import express from 'express';
 import bodyParser from 'body-parser';
 import fs from 'fs';
@@ -26,7 +27,6 @@ app.post('/tier6/human-review', (req, res) => {
 
   const logs = fs.existsSync(auditLogFile) ? JSON.parse(fs.readFileSync(auditLogFile)) : [];
   const existing = logs.find(r => r.tier5.id === tier5Output.id);
-
   if (existing) {
     existing.humanDecision = humanDecision || existing.humanDecision;
     existing.timestamp = record.timestamp;
@@ -47,3 +47,4 @@ app.post('/tier6/human-review', (req, res) => {
 app.listen(3001, () => {
   console.log('Tier-6 Human Review API running on port 3001');
 });
+

@@ -1,16 +1,11 @@
 [
   {
-    "timestamp": "2026-02-03T15:10:15.422Z",
+    "timestamp": "2026-02-03T18:14:30.394Z",
     "tier5": {
-      "aggregation": {
-        "final_decision": "reject",
-        "confidence": 0.5
-      },
-      "escalation": {
-        "escalate": true
-      }
+      "id": 1,
+      "someData": "example"
     },
-    "humanDecision": "approve",
+    "humanDecision": "rejected",
     "authority": "tier-6"
   }
 ]
