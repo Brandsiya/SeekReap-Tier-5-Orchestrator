@@ -1,0 +1,89 @@
+[
+  {
+    "timestamp": "2026-02-03T16:00:21.234Z",
+    "tier5": {
+      "id": "4f2e8ad8-13d7-449a-9d6a-0944bd078702",
+      "aggregation": {
+        "final_decision": "reject",
+        "confidence": 0.5
+      },
+      "escalation": {
+        "escalate": true,
+        "reason": "Confidence below acceptable threshold",
+        "authority": "human-or-tier-6",
+        "timestamp": "2026-02-03T16:00:21.013Z"
+      }
+    },
+    "humanDecision": "pending",
+    "authority": "tier-6"
+  },
+  {
+    "timestamp": "2026-02-03T16:04:47.445Z",
+    "tier5": {
+      "id": "a9e488f7-50b9-4afe-bdaf-85463c0b5cde",
+      "aggregation": {
+        "final_decision": "reject",
+        "confidence": 0.5
+      },
+      "escalation": {
+        "escalate": true,
+        "reason": "Confidence below acceptable threshold",
+        "authority": "human-or-tier-6",
+        "timestamp": "2026-02-03T16:04:47.433Z"
+      }
+    },
+    "humanDecision": "pending",
+    "authority": "tier-6"
+  },
+  {
+    "timestamp": "2026-02-03T16:15:45.247Z",
+    "tier5": {
+      "id": "test123",
+      "aggregation": {
+        "final_decision": "reject",
+        "confidence": 0.5
+      },
+      "escalation": {
+        "escalate": true
+      }
+    },
+    "humanDecision": "pending",
+    "authority": "tier-6"
+  },
+  {
+    "timestamp": "2026-02-03T16:07:53.691Z",
+    "tier5": {
+      "id": "6cd72b18-83cf-475e-af02-dc3a68b72e3b",
+      "aggregation": {
+        "final_decision": "reject",
+        "confidence": 0.5
+      },
+      "escalation": {
+        "escalate": true,
+        "reason": "Confidence below acceptable threshold",
+        "authority": "human-or-tier-6",
+        "timestamp": "2026-02-03T16:07:53.684Z"
+      }
+    },
+    "humanDecision": "pending",
+    "authority": "tier-6"
+  },
+  {
+    "timestamp": "2026-02-03T16:16:02.502Z",
+    "tier5": {
+      "id": "503b7399-6d5b-4b7d-95a7-c3e9142a7c3b",
+      "aggregation": {
+        "final_decision": "reject",
+        "confidence": 0.5
+      },
+      "escalation": {
+        "escalate": true,
+        "reason": "Confidence below acceptable threshold",
+        "authority": "human-or-tier-6",
+        "timestamp": "2026-02-03T16:16:02.498Z"
+      }
+    },
+    "humanDecision": "pending",
+    "authority": "tier-6"
+  }
+]

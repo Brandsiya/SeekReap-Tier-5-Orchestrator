@@ -1,8 +1,0 @@
-{
-  "confidenceThreshold": 0.6,
-  "mandatoryApproval": true,
-  "exceptions": [
-    "special-case-client",
-    "regulatory-required"
-  ]
-}
